@@ -1,0 +1,11 @@
+Home !
+
+{{#timing}}
+<h4>Temps de chargement</h4>
+<ul>
+  <li>Total (loadEventEnd - navigationStart) : {{ total }} ms</li>
+  <li>Requète (responseEnd - requestStart) : {{ request }} ms</li>
+  <li>Affichage (loadEventEnd - responseEnd) : {{ load }} ms</li>
+  <li class="client"></li>
+</ul>
+{{/timing}}

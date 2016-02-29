@@ -1,6 +1,19 @@
-<html>
-  <head>
-    <title>Angular 2 QuickStart</title>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Prototype javascript responsive</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 1. Load libraries -->
     <!-- IE required polyfill -->
@@ -9,11 +22,56 @@
     <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
     <script src="node_modules/angular2/bundles/angular2-all.umd.js"></script>
     <!-- 2. Load our 'modules' -->
-    <script src='app.component.js'></script>
-    <script src='main.js'></script>
-  </head>
-  <!-- 3. Display the application -->
-  <body>
-    <my-app>Loading...</my-app>
-  </body>
+    <script src='components/app.component.js'></script>
+    <script src='components/main.js'></script>
+
+  <script data-main="js/main" src="js/libs/require/require.js"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">
+    <a href="">
+      <object data="images/logo.svg" width="200px" height="45px" type="image/svg+xml">
+        <img src="images/logo.png"alt="" />
+      </object>
+    </a>
+  </div>
+
+  <div class="menuIcon cart">
+    <a href="#cart">
+      <object data="images/cart.svg" width="36px" height="36px" type="image/svg+xml">
+        <!-- backup image -->
+        <img src="http://iconizer.net/files/Wireframe_mono_icons/orig/shop_cart.png">
+      </object>
+    </a>
+  </div>
+  <div class="menuIcon account">
+    <object data="images/account.svg" width="36px" height="36px" type="image/svg+xml">
+      <!-- backup image -->
+    </object>
+  </div>
+
+
+  <div id="menu" class="menu">Loading menu...</div>
+</header>
+
+<my-app>Loading...</my-app>
+<div id="main">
+  Loading....
+</div>
+
+<footer class="footer">
+  <ul class="footerMenu">
+    <li class="footerItem"><a href="" class="txtLink menuIcon home">Accueil</a></li>
+    <li class="footerItem"><a href="" class="txtLink menuIcon cart">Mon panier</a></li>
+    <li class="footerItem"><a href="" class="txtLink menuIcon account">Mon compte</a></li>
+    <li class="footerItem"><a href="" class="txtLink menuIcon help">Aide et contact</a></li>
+    <li class="footerItem"><a href="" class="txtLink menuIcon pcVersion">Accédez à la version PC</a></li>
+    <li class="footerItem"><a href="" class="txtLink menuIcon scannezVendez">Application Scannez-vendez</a></li>
+  </ul>
+</footer>
+
+
+</body>
 </html>

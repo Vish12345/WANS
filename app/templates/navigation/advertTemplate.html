@@ -1,0 +1,34 @@
+{{#if advert}}
+
+  {{#advert}}
+    <a href="#advertDetail/{{ id }}/{{ ../advertType }} ">
+
+      <span data-picture data-alt="{{ headline }}">
+        <span data-src="{{getImage "M" images}}" class="photo"></span>
+        <span data-src="{{getImage "MML" images}}" data-media="(min-width: 400px)" class="photo"></span>
+        <span data-src="{{getImage "ML" images}}"  data-media="(min-width: 800px)" class="photo"></span>
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+          <img src="{{getImage "MML" images}}" alt="{{ headline }}" class="photo"/>
+        </noscript>
+      </span>
+
+      <h3>{{ headline }}</h3>
+      <ul class="productDescription txtLink">
+        {{#if caption}}<li class="caption">{{ caption }}</li>{{/if}}
+        {{#if topic}}<li class="topic">{{ topic }}</li>{{/if}}
+
+        <ul class="prices">
+          {{#if newBestPrice}}{{#showPrice ../../advertType "NEW"}}<li class="newPrice"><span class="value">{{numberFormat newBestPrice 2}} &euro;</span> neuf</li>{{/showPrice}}{{/if}}
+          {{#if usedBestPrice}}{{#showPrice ../../advertType "USED"}}<li class="usedPrice"><span class="value">{{numberFormat usedBestPrice 2}} &euro;</span> occasion</li>{{/showPrice}}{{/if}}
+        </ul>
+
+        {{#if reviewsAverageNote}}<li class="reviews rating rate_{{rate reviewsAverageNote }}"></li>{{/if}}
+
+      </ul>
+    </a>
+  {{/advert}}
+
+{{else}}
+  advert vide
+{{/if}}

@@ -1,0 +1,541 @@
+[{
+  "response": {
+    "webserviceVersion": "1",
+    "result": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xsi:type": "productRemoteDto",
+      "id": "56040552",
+      "urlName": "L-incroyable-Destin-D-harold-Crick-DVD-Zone-2",
+      "productScope": "PUBLIC",
+      "adverts": {
+        "advert": [
+          {
+            "advertId": "629403442",
+            "productId": "56040552",
+            "salePrice": "4.17",
+            "shippingAmount": "0.0",
+            "seller": {
+              "login": "dvd-rebell",
+              "type": "PRO",
+              "saleCommitCount": "140142",
+              "totalSaleCount": "142530",
+              "saleCount": "140142",
+              "averageScore": "4.77",
+              "isoCountryId": "249",
+              "sellerAnswerTime": "2434342032323",
+              "creationDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2006-12-18T00:43:15+01:00"
+              },
+              "lastLoginDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2013-08-07T15:02:07+02:00"
+              }
+            },
+            "shippingTypes": "NORMAL SUIVI RECOMMANDE CHRONOPOST",
+            "availableShippingTypes": {
+              "shippingType": [
+                {
+                  "id": "10",
+                  "label": "Normal"
+                },
+                {
+                  "id": "30",
+                  "label": "Suivi"
+                },
+                {
+                  "id": "15",
+                  "label": "Recommandé"
+                },
+                {
+                  "id": "60",
+                  "label": "Chronopost"
+                }
+              ]
+            },
+            "isPickupAllowed": "false",
+            "quality": "NEW",
+            "type": "NEW",
+            "sellerComment": "DVD NEUF SOUS BLISTER /// EXPÉDITION IMMÉDIATE SI COMMANDE AVANT 15H , SOUS POCHETTE A BULLES /// DVD-REBELL , DÉJÀ 100 000 CLIENTS EN LIGNE...",
+            "rspMinimumAmount": "5",
+            "expressDeliveryDate": {
+              "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+              "-xsi:type": "xs:dateTime",
+              "#text": "2013-08-09T23:59:59.999+02:00"
+            }
+          },
+          {
+            "advertId": "647800067",
+            "productId": "56040552",
+            "salePrice": "1.5",
+            "shippingAmount": "2.9",
+            "seller": {
+              "login": "daredevil94",
+              "type": "PRO",
+              "saleCommitCount": "178224",
+              "totalSaleCount": "181474",
+              "saleCount": "178224",
+              "averageScore": "4.83",
+              "isoCountryId": "249",
+              "sellerAnswerTime": "10075442772098",
+              "creationDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2003-05-15T19:29:06+02:00"
+              },
+              "lastLoginDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2013-08-07T13:30:33+02:00"
+              }
+            },
+            "shippingTypes": "NORMAL SO_RECOMMANDE CHRONOPOST",
+            "availableShippingTypes": {
+              "shippingType": [
+                {
+                  "id": "10",
+                  "label": "Normal"
+                },
+                {
+                  "id": "80",
+                  "label": "Recommandé So Colissimo"
+                },
+                {
+                  "id": "60",
+                  "label": "Chronopost"
+                }
+              ]
+            },
+            "isPickupAllowed": "false",
+            "quality": "NEW",
+            "type": "NEW",
+            "sellerComment": "NEUF SOUS CELLOPHANE-ENVOI RAPIDE SOUS ENVELOPPE A BULLES-POUR 5 ARTICLES ACHETES NOUS RAJOUTONS UN 6 EME DVD OFFERT-PROFESSIONNEL DE LA VENTE EN LIGNE",
+            "rspMinimumAmount": "2",
+            "expressDeliveryDate": {
+              "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+              "-xsi:type": "xs:dateTime",
+              "#text": "2013-08-09T23:59:59.999+02:00"
+            }
+          },
+          {
+            "advertId": "646039403",
+            "productId": "56040552",
+            "salePrice": "2.5",
+            "shippingAmount": "2.9",
+            "seller": {
+              "login": "Shubaka",
+              "type": "INDIVIDUAL",
+              "saleCommitCount": "2606",
+              "totalSaleCount": "2786",
+              "saleCount": "2606",
+              "averageScore": "4.67",
+              "isoCountryId": "249",
+              "sellerAnswerTime": "110693620754",
+              "creationDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2002-07-23T21:47:51+02:00"
+              },
+              "lastLoginDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2013-08-06T21:53:04+02:00"
+              }
+            },
+            "shippingTypes": "NORMAL SUIVI SO_RECOMMANDE CHRONOPOST",
+            "availableShippingTypes": {
+              "shippingType": [
+                {
+                  "id": "10",
+                  "label": "Normal"
+                },
+                {
+                  "id": "30",
+                  "label": "Suivi"
+                },
+                {
+                  "id": "80",
+                  "label": "Recommandé So Colissimo"
+                },
+                {
+                  "id": "60",
+                  "label": "Chronopost"
+                }
+              ]
+            },
+            "isPickupAllowed": "false",
+            "quality": "LIKE_NEW",
+            "type": "USED",
+            "rspMinimumAmount": "3",
+            "expressDeliveryDate": {
+              "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+              "-xsi:type": "xs:dateTime",
+              "#text": "2013-08-09T23:59:59.999+02:00"
+            }
+          },
+          {
+            "advertId": "532368115",
+            "productId": "56040552",
+            "salePrice": "2.5",
+            "shippingAmount": "2.9",
+            "seller": {
+              "login": "JANMIC39",
+              "type": "INDIVIDUAL",
+              "saleCommitCount": "5",
+              "totalSaleCount": "6",
+              "saleCount": "5",
+              "averageScore": "2.0",
+              "isoCountryId": "249",
+              "sellerAnswerTime": "1646663449",
+              "creationDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2008-08-06T15:18:06+02:00"
+              },
+              "lastLoginDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2013-08-01T19:35:03+02:00"
+              }
+            },
+            "shippingTypes": "NORMAL SUIVI SO_RECOMMANDE CHRONOPOST",
+            "availableShippingTypes": {
+              "shippingType": [
+                {
+                  "id": "10",
+                  "label": "Normal"
+                },
+                {
+                  "id": "30",
+                  "label": "Suivi"
+                },
+                {
+                  "id": "80",
+                  "label": "Recommandé So Colissimo"
+                },
+                {
+                  "id": "60",
+                  "label": "Chronopost"
+                }
+              ]
+            },
+            "isPickupAllowed": "false",
+            "quality": "LIKE_NEW",
+            "type": "USED",
+            "rspMinimumAmount": "3",
+            "expressDeliveryDate": {
+              "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+              "-xsi:type": "xs:dateTime",
+              "#text": "2013-08-09T23:59:59.999+02:00"
+            }
+          },
+          {
+            "advertId": "589600550",
+            "productId": "56040552",
+            "salePrice": "3.5",
+            "shippingAmount": "2.9",
+            "seller": {
+              "login": "clap-movie",
+              "type": "PRO",
+              "saleCommitCount": "931",
+              "totalSaleCount": "964",
+              "saleCount": "931",
+              "averageScore": "4.91",
+              "isoCountryId": "249",
+              "sellerAnswerTime": "49324506961",
+              "creationDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2012-09-30T12:00:37+02:00"
+              },
+              "lastLoginDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2013-08-07T14:34:46+02:00"
+              }
+            },
+            "shippingTypes": "NORMAL RECOMMANDE CHRONOPOST",
+            "availableShippingTypes": {
+              "shippingType": [
+                {
+                  "id": "10",
+                  "label": "Normal"
+                },
+                {
+                  "id": "15",
+                  "label": "Recommandé"
+                },
+                {
+                  "id": "60",
+                  "label": "Chronopost"
+                }
+              ]
+            },
+            "isPickupAllowed": "false",
+            "quality": "NEW",
+            "type": "NEW",
+            "rspMinimumAmount": "4",
+            "expressDeliveryDate": {
+              "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+              "-xsi:type": "xs:dateTime",
+              "#text": "2013-08-09T23:59:59.999+02:00"
+            }
+          }
+        ]
+      },
+      "bestOffers": {
+        "new": {
+          "isBuybox": "false",
+          "score": "0.0",
+          "adverts": {
+            "adverts": [
+              {
+                "advertId": "629403442",
+                "productId": "56040552",
+                "salePrice": "4.17",
+                "shippingAmount": "0.0",
+                "seller": {
+                  "login": "dvd-rebell",
+                  "type": "PRO",
+                  "saleCommitCount": "140142",
+                  "totalSaleCount": "142530",
+                  "saleCount": "140142",
+                  "averageScore": "4.77",
+                  "isoCountryId": "249",
+                  "sellerAnswerTime": "2434342032323",
+                  "creationDate": {
+                    "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                    "-xsi:type": "xs:dateTime",
+                    "#text": "2006-12-18T00:43:15+01:00"
+                  },
+                  "lastLoginDate": {
+                    "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                    "-xsi:type": "xs:dateTime",
+                    "#text": "2013-08-07T15:02:07+02:00"
+                  }
+                },
+                "shippingTypes": "NORMAL SUIVI RECOMMANDE CHRONOPOST",
+                "availableShippingTypes": {
+                  "shippingType": [
+                    {
+                      "id": "10",
+                      "label": "Normal"
+                    },
+                    {
+                      "id": "30",
+                      "label": "Suivi"
+                    },
+                    {
+                      "id": "15",
+                      "label": "Recommandé"
+                    },
+                    {
+                      "id": "60",
+                      "label": "Chronopost"
+                    }
+                  ]
+                },
+                "isPickupAllowed": "false",
+                "quality": "NEW",
+                "type": "NEW",
+                "sellerComment": "DVD NEUF SOUS BLISTER /// EXPÉDITION IMMÉDIATE SI COMMANDE AVANT 15H , SOUS POCHETTE A BULLES /// DVD-REBELL , DÉJÀ 100 000 CLIENTS EN LIGNE...",
+                "rspMinimumAmount": "5",
+                "expressDeliveryDate": {
+                  "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                  "-xsi:type": "xs:dateTime",
+                  "#text": "2013-08-09T23:59:59.999+02:00"
+                }
+              },
+              {
+                "advertId": "647800067",
+                "productId": "56040552",
+                "salePrice": "1.5",
+                "shippingAmount": "2.9",
+                "seller": {
+                  "login": "daredevil94",
+                  "type": "PRO",
+                  "saleCommitCount": "178224",
+                  "totalSaleCount": "181474",
+                  "saleCount": "178224",
+                  "averageScore": "4.83",
+                  "isoCountryId": "249",
+                  "sellerAnswerTime": "10075442772098",
+                  "creationDate": {
+                    "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                    "-xsi:type": "xs:dateTime",
+                    "#text": "2003-05-15T19:29:06+02:00"
+                  },
+                  "lastLoginDate": {
+                    "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                    "-xsi:type": "xs:dateTime",
+                    "#text": "2013-08-07T13:30:33+02:00"
+                  }
+                },
+                "shippingTypes": "NORMAL SO_RECOMMANDE CHRONOPOST",
+                "availableShippingTypes": {
+                  "shippingType": [
+                    {
+                      "id": "10",
+                      "label": "Normal"
+                    },
+                    {
+                      "id": "80",
+                      "label": "Recommandé So Colissimo"
+                    },
+                    {
+                      "id": "60",
+                      "label": "Chronopost"
+                    }
+                  ]
+                },
+                "isPickupAllowed": "false",
+                "quality": "NEW",
+                "type": "NEW",
+                "sellerComment": "NEUF SOUS CELLOPHANE-ENVOI RAPIDE SOUS ENVELOPPE A BULLES-POUR 5 ARTICLES ACHETES NOUS RAJOUTONS UN 6 EME DVD OFFERT-PROFESSIONNEL DE LA VENTE EN LIGNE",
+                "rspMinimumAmount": "2",
+                "expressDeliveryDate": {
+                  "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                  "-xsi:type": "xs:dateTime",
+                  "#text": "2013-08-09T23:59:59.999+02:00"
+                }
+              },
+              {
+                "advertId": "589600550",
+                "productId": "56040552",
+                "salePrice": "3.5",
+                "shippingAmount": "2.9",
+                "seller": {
+                  "login": "clap-movie",
+                  "type": "PRO",
+                  "saleCommitCount": "931",
+                  "totalSaleCount": "964",
+                  "saleCount": "931",
+                  "averageScore": "4.91",
+                  "isoCountryId": "249",
+                  "sellerAnswerTime": "49324506961",
+                  "creationDate": {
+                    "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                    "-xsi:type": "xs:dateTime",
+                    "#text": "2012-09-30T12:00:37+02:00"
+                  },
+                  "lastLoginDate": {
+                    "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                    "-xsi:type": "xs:dateTime",
+                    "#text": "2013-08-07T14:34:46+02:00"
+                  }
+                },
+                "shippingTypes": "NORMAL RECOMMANDE CHRONOPOST",
+                "availableShippingTypes": {
+                  "shippingType": [
+                    {
+                      "id": "10",
+                      "label": "Normal"
+                    },
+                    {
+                      "id": "15",
+                      "label": "Recommandé"
+                    },
+                    {
+                      "id": "60",
+                      "label": "Chronopost"
+                    }
+                  ]
+                },
+                "isPickupAllowed": "false",
+                "quality": "NEW",
+                "type": "NEW",
+                "rspMinimumAmount": "4",
+                "expressDeliveryDate": {
+                  "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                  "-xsi:type": "xs:dateTime",
+                  "#text": "2013-08-09T23:59:59.999+02:00"
+                }
+              }
+            ]
+          }
+        },
+        "used": {
+          "isBuybox": "true",
+          "score": "1186.7502952026143",
+          "adverts": {
+            "adverts": {
+              "advertId": "646039403",
+              "productId": "56040552",
+              "salePrice": "2.5",
+              "shippingAmount": "2.9",
+              "seller": {
+                "login": "Shubaka",
+                "type": "INDIVIDUAL",
+                "saleCommitCount": "2606",
+                "totalSaleCount": "2786",
+                "saleCount": "2606",
+                "averageScore": "4.67",
+                "isoCountryId": "249",
+                "sellerAnswerTime": "110693620754",
+                "creationDate": {
+                  "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                  "-xsi:type": "xs:dateTime",
+                  "#text": "2002-07-23T21:47:51+02:00"
+                },
+                "lastLoginDate": {
+                  "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                  "-xsi:type": "xs:dateTime",
+                  "#text": "2013-08-06T21:53:04+02:00"
+                }
+              },
+              "shippingTypes": "NORMAL SUIVI SO_RECOMMANDE CHRONOPOST",
+              "availableShippingTypes": {
+                "shippingType": [
+                  {
+                    "id": "10",
+                    "label": "Normal"
+                  },
+                  {
+                    "id": "30",
+                    "label": "Suivi"
+                  },
+                  {
+                    "id": "80",
+                    "label": "Recommandé So Colissimo"
+                  },
+                  {
+                    "id": "60",
+                    "label": "Chronopost"
+                  }
+                ]
+              },
+              "isPickupAllowed": "false",
+              "quality": "LIKE_NEW",
+              "type": "USED",
+              "rspMinimumAmount": "3",
+              "expressDeliveryDate": {
+                "-xmlns:xs": "http://www.w3.org/2001/XMLSchema",
+                "-xsi:type": "xs:dateTime",
+                "#text": "2013-08-09T23:59:59.999+02:00"
+              }
+            }
+          }
+        }
+      },
+      "bestPrice": "0.0",
+      "newBestPrice": "1.5",
+      "usedBestPrice": "1.5",
+      "collectibleBestPrice": "0.0",
+      "advertsCount": "19",
+      "advertsNewCount": "11",
+      "advertsUsedCount": "8",
+      "advertsCollectibleCount": "0",
+      "headline": "L'incroyable Destin D'harold Crick",
+      "caption": "Marc Forster",
+      "topic": "DVD Zone 2",
+      "references": { "ean": "3333297912723" },
+      "breadcrumbs": {
+        "breadcrumbsElement": {
+          
+        }
+      }
+    }
+  }
+}]

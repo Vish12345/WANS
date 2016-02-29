@@ -1,0 +1,68 @@
+{{#if kw}}{{else}}<h1>{{ title }}</h1>{{/if}}
+
+{{#if subCategories}}
+<div class="leftNavigation">
+  <ul class="listingCategories">
+    {{#each subCategories}}
+    <li class="category">
+      <a href="#navigation/{{ name }}/1/ALL">{{ label }}</a>
+    </li>
+    {{/each}}
+  </ul>
+</div>
+{{/if}}
+{{#if filters}}
+<div class="leftNavigation">
+  {{#each filters}}
+  <h3>{{ name }}</h3>
+  <ul class="listingCategories">
+    {{#each filterValues}}
+    <li class="category">
+      {{ label }} ({{ productsCount }})
+    </li>
+    {{/each}}
+  </ul>
+  {{/each}}
+</div>
+{{/if}}
+
+
+<div class="mainContent">
+  <div class="displayBy">
+    <a href="#{{ page }}/{{ category }}/1/ALL" class="filter" data-filter="ALL">Tout</a>
+    <a href="#{{ page }}/{{ category }}/1/NEW" class="filter" data-filter="NEW">Neuf</a>
+    <a href="#{{ page }}/{{ category }}/1/USED" class="filter" data-filter="USED">Occasion</a>
+  </div>
+
+  {{#if adverts }}
+
+    <ul class="navigation row">
+      {{#adverts }}
+       <li id="advert-{{ id }}" class="advertItem"></li> 
+      {{/adverts}}
+    </ul>
+
+    {{#if hasPrevPage}}<a class="pagination btn previous" href="#{{ page }}/{{ category }}/{{ prevPage }}/{{ advertType }}">prev</a>{{/if}}
+    <form id="paginationForm" class="paginationForm">
+      <input type="text" name="page" placeholder="{{ currentPage }}"/> / {{ nbPages }}
+    </form>
+    {{#if hasNextPage}}<a class="pagination btn next" href="#{{ page }}/{{ category }}/{{ nextPage }}/{{ advertType }}">next</a>{{/if}}
+
+  {{else}}
+    pas d'adverts!
+  {{/if}}
+
+  
+
+</div>
+
+
+{{#timing}}
+<h4>Temps de chargement</h4>
+<ul>
+  <li>Total (loadEventEnd - navigationStart) : {{ total }} ms</li>
+  <li>Requète (responseEnd - requestStart) : {{ request }} ms</li>
+  <li>Affichage (loadEventEnd - responseEnd) : {{ load }} ms</li>
+  <li class="client"></li>
+</ul>
+{{/timing}}

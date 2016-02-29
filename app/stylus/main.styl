@@ -1,0 +1,504 @@
+textColor = #333
+linkColor = #1f55ad
+grayColor = #eaeef1
+filterColor = #b6bcc0
+redColor = #bf0000
+itemMargin = 3%
+itemSpacing = 10px
+
+boxSizing()
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+borderRadius()
+  -webkit-border-radius: 5px
+  -moz-border-radius: 5px
+  border-radius: 5px
+
+boxShadow(color)
+  -webkit-box-shadow: 1px 2px 0 color
+  -moz-box-shadow: 1px 2px 0 color
+  box-shadow: 1px 2px 0 color
+
+truncate(lineHeight, nbLines)
+  line-height: lineHeight
+  max-height: lineHeight * nbLines
+  overflow: hidden
+
+body
+  background-color: #fff
+  color: textColor
+  font-family: "Arial", sans-serif
+
+
+h1, h2, h3, h4
+  margin-bottom: 0
+h1
+  font-size: 1.4em
+h2
+  font-size: 1.2em
+h3
+  font-size: 1.1em
+
+a,
+a:active,
+a:link,
+a:visited
+  display: inline-block
+  text-decoration: none
+  color: linkColor
+  img
+    border: none
+
+.txtLink
+  color: textColor !important
+
+
+img
+  max-width: 100%
+
+
+ul
+  margin: 0
+  padding: 0
+  li
+    list-style: none
+  
+input, textarea
+  font-size: 1em
+
+object
+    pointer-events: none;
+
+
+.btn
+  margin: 2px 0
+  padding: 11px 20px
+  border: none
+  background-color: grayColor
+  font-size: 1em
+  text-align: center
+  min-width: 120px
+  boxShadow(filterColor)
+  borderRadius()
+  &.primary
+    color: #fff
+    background-color: redColor
+    boxShadow(#7c0000)
+a
+  &.btn
+    color: textColor !important
+
+.well
+  padding: 20px
+  background-color: grayColor
+
+
+.buyBox
+  margin-bottom: itemSpacing
+  font-size: 1.1em
+
+
+.displayBy
+  margin: itemSpacing 0
+  text-align: center
+  .filter
+    display: inline-block
+    margin: 0 -4px
+    padding: 9px 0
+    width: 33%
+    max-width: 150px 
+    background-color: #fff
+    border-width: 2px 0 2px 2px
+    border-style: solid
+    border-color: filterColor
+    text-align: center
+    color: textColor
+    boxSizing()
+    &:first-child
+      borderRadius()
+      border-top-right-radius: 0
+      border-bottom-right-radius: 0
+    &:last-child
+      borderRadius()
+      border-top-left-radius: 0
+      border-bottom-left-radius: 0
+      border-right-width: 2px
+    &.active
+      pointer-events: none
+    &.active, &:hover
+      background-color: filterColor
+      color: #fff
+    &.disabled, &[disabled]
+      cursor: default
+      background-color: grayColor
+      color: lighten(textColor, 60%)
+      pointer-events: none
+
+.seller abbr
+  display: inline-block
+  width: 38px
+  height: 14px
+  margin-left: 5px
+  text-indent: -5000px
+  border: none
+  text-decoration: none
+  background: transparent url('images/isPro.png') 0 0 no-repeat
+  vertical-align: middle
+
+
+
+/******************************  HEADER  *******************************/
+
+.header,
+.footer
+  margin: 0 -7px
+  position: relative
+
+
+.header
+  .menu
+    margin: itemSpacing 0
+  .navigationBtn
+    border-width: 1px 0
+    border-style: solid
+    border-color: filterColor
+
+  .menuItem
+    padding: itemSpacing
+    display: inline-block
+    vertical-align: middle
+    font-size: 1.1em
+    boxSizing()
+    &.uiShow
+      background-color: filterColor
+      color: #fff
+
+  .searchBtn
+    width: 20%
+    border-right: 1px solid filterColor
+    text-align: center
+
+  .categoriesBtn
+    width: 80%
+    line-height: 1.8em
+
+  .menuContent
+    display: none
+    background-color: filterColor
+    margin: -itemSpacing 0 itemSpacing 0
+    padding: itemSpacing
+    &.uiShow
+      display: block
+
+  .categories
+    .category
+      background-color: #fff
+      border-bottom: 1px solid filterColor
+      a
+        display: block
+        padding: itemSpacing
+
+
+  .search_form .searchInput
+    width: 100%
+    padding: itemSpacing
+    border: none
+    boxSizing()
+
+  .suggestList
+    .suggestItem
+      display: block
+      background-color: #fff
+      padding: itemSpacing
+      margin-bottom: 2px
+      border-bottom: 2px solid grayColor
+      &:last-child
+        border-width: 5px
+
+  .logo
+    display: inline-block
+    width: 50%
+    max-width: 250px
+
+  .menuIcon
+    display: inline-block
+    position: absolute
+    &.cart
+      right: itemSpacing
+    &.account
+      right: 30px+36px
+
+
+/******************************  FOOTER  *******************************/
+
+.footer
+  margin-top: 20px
+  border-top: 15px solid grayColor
+
+.footerMenu
+  .footerItem
+    border-bottom: 2px solid grayColor
+    &:last-child
+      border: none
+    a
+      display: block
+      padding: itemSpacing
+
+  .menuIcon:before
+    content: ''
+    display: inline-block
+    width: 35px
+    height: 20px
+    -webkit-background-size: 20px 20px
+    background-size: 20px 20px
+    background-repeat: no-repeat
+  .menuIcon.home:before
+    background-image: url('images/home.svg')
+  .menuIcon.cart:before
+    background-image: url('images/cart.svg')
+  .menuIcon.account:before
+    background-image: url('images/account.svg')
+  .menuIcon.help:before
+    background-image: url('images/help.svg')
+  .menuIcon.pcVersion:before
+    background-image: url('images/pc-version.svg')
+  .menuIcon.scannezVendez:before
+    background-image: url('images/scannez-vendez.svg')
+
+/******************************  NAVIGATION  *******************************/
+
+.navigation
+  .advertItem
+    padding: 5px
+    margin: (itemMargin/2)
+    float: left
+    boxSizing()
+    a
+      display: block
+      width: 100%
+
+    h3
+      truncate(1.2em, 2)
+      color: textColor
+      font-size: 1em
+
+    .productDescription
+      .caption,
+      .topic
+        color: lighten(textColor, 30%)
+        truncate(1.2em, 2)
+
+    // .photo
+    //   width: 100%
+    //   img
+    //     width: 100%
+
+    &:hover
+      background-color: grayColor
+
+.paginationForm
+  display: inline
+  margin: 0 10px
+  input
+    width: 40px
+    padding: 10px
+
+/******************************  FP  *******************************/
+
+.advert
+  .photo
+    margin: 20px 0
+
+  .productBox
+    .diaporama
+      width: 500px  
+
+.listing
+  .advertItem
+    margin: 20px 0
+    border-bottom: 1px solid grayColor
+
+    &:first-child
+      margin-top: 0
+
+    .price 
+      .value
+        display: inline-block
+        width: 120px
+        font-size: 1.3em
+
+    .quality
+      font-size: 1.1em
+      color: redColor
+
+    .sellerInfos
+      display: block
+
+    .sellerComment
+      display: block
+      margin-top: itemSpacing
+      font-size: 0.9em
+
+.actions
+  display: none
+  padding-bottom: 20px
+  &.uiShow
+    display: block
+  .btn
+    width: 100%  
+
+
+/******************************  cart  *******************************/
+
+.cartSummary
+  font-size: 1.2em
+
+.cartList
+  .sellerCart
+    background-color: lighten(grayColor, 50%)
+    padding: 5px
+  .cartItem
+    .photo
+      float: left
+      margin-right: itemSpacing
+    .productDescription
+      overflow: hidden
+
+/******************************  PRICING  *******************************/
+
+.price .value,
+.prices .value
+  color: redColor
+  font-weight: bold
+
+.prices
+  margin: itemSpacing 0
+
+
+
+/******************************  diaporama  *******************************/
+
+.diaporama
+  overflow: hidden
+  .wrapper
+    .diapoPhoto
+      float: left
+
+/******************************  STAR RATING  *******************************/
+
+ratePosition(id)
+  -21px * id
+
+.rating
+  background: url('images/rsz_rating-star.png') no-repeat 0 0
+  width: 120px
+  height: 22px
+  margin-bottom: 3px
+  display: inline-block
+  vertical-align: middle
+
+.rate_1 
+  background-position: 0 ratePosition(9) 
+.rate_2
+  background-position: 0 ratePosition(8) 
+.rate_3
+  background-position: 0 ratePosition(7) 
+.rate_4
+  background-position: 0 ratePosition(6) 
+.rate_5
+  background-position: 0 ratePosition(5) 
+.rate_6
+  background-position: 0 ratePosition(4) 
+.rate_7
+  background-position: 0 ratePosition(3) 
+.rate_8
+  background-position: 0 ratePosition(2) 
+.rate_9
+  background-position: 0 ratePosition(1) 
+.rate_10
+  background-position: 0 ratePosition(0) 
+
+
+/******************************  LEFT NAVIGATION  *******************************/
+
+.leftNavigation
+  .listingCategories
+    .category
+      padding: itemSpacing 0
+
+/******************************  GRID  *******************************/
+
+.row
+    height: 100%
+    *zoom: 1
+
+.row:before,
+.row:after
+  display: table
+  line-height: 0
+  content: ""
+
+.row:after
+  clear: both
+
+/******************************  RESPONSIVE  *******************************/
+
+@media only screen and (max-width : 768px)
+  .leftNavigation
+    display: none
+
+  .navigation
+    .advertItem
+      width: 47%
+
+  .advert
+    .productBox
+      .buyBox
+        display: none
+
+
+
+@media only screen and (min-width : 768px)
+  .advert
+    .productBox
+      .photo
+        width: 50% - itemSpacing*2
+        margin-right: 20px
+        float: left
+      .buyBox
+        overflow: hidden
+
+    .listing
+      .advertItem
+        display: table-row
+        .price
+          display: table-cell
+          width: 250px
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px)
+  .leftNavigation
+    float: left
+    width: 220px
+  .mainContent
+    overflow: hidden
+
+  .navigation
+    .advertItem
+      width: 30%
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px)
+  .leftNavigation
+    float: left
+    width: 220px
+  .mainContent
+    overflow: hidden
+
+  .navigation
+    .advertItem
+      width: 22%

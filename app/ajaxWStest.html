@@ -1,0 +1,47 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $.ajax({
+
+        beforeSend: function(req) {
+          req.setRequestHeader("Accept", "application/json");
+        },
+        url: "/rest/product/v1/get?productId=56040552&loadProductDetails=true&advertType=ALL",
+        accepts: {
+          json: 'application/json'
+        },
+        contentType: 'application/json',
+        dataType: 'json',
+        success: function(data) {
+         console.log("success");
+        },
+        error: function(collection, response, options) {
+          console.log(collection);
+          console.log(response);
+          console.log("error...");
+        },
+        complete: function(jqXHR, textStatus) {
+          console.log("textStatus: " + textStatus);
+        }
+        
+      });
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>

@@ -2,8 +2,12 @@
   "name": "angular2-quickstart",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run lite",
-    "lite": "lite-server"
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
   },
   "license": "ISC",
   "dependencies": {
@@ -16,7 +20,9 @@
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
-    "lite-server": "^2.1.0"
+    "lite-server": "^2.1.0",
+    "grunt": "^0.4.5",
+    "grunt-tsc": "^1.0.12"
   }
 }
 

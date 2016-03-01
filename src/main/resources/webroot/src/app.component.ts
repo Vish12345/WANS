@@ -10,18 +10,18 @@ import {Product} from './app.product';
     template: `
     <div>
       <h1>!!!Products!!!</h1>
-<ul>
-    <li *ng-for="#prd of products">
-      {{prd.id}}<br/>
-       {{prd.urlName}}<br/>
-        {{prd.headline}}<br/>
-         {{prd.caption}}<br/>
-          {{prd.bestPrice}}<br/>
-           {{prd.images}}<br/>
-            {{prd.newBestPrice}}<br/>
-             {{prd.nbReviews}}<br/>
-    </li>
-  </ul>
+    <ul>
+        <li *ng-for="#prd of products">
+          {{prd.id}}<br/>
+           {{prd.urlName}}<br/>
+            {{prd.headline}}<br/>
+             {{prd.caption}}<br/>
+              {{prd.bestPrice}}<br/>
+               {{prd.images}}<br/>
+                {{prd.newBestPrice}}<br/>
+                 {{prd.nbReviews}}<br/>
+        </li>
+      </ul>
     </div>
   `,
     directives: [NgFor]

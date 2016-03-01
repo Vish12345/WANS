@@ -1,1 +1,11 @@
-app/node_modules
+
+.classpath
+.project
+.settings/
+/target/
+/src/main/resources/webroot/app/
+/src/main/resources/webroot/node_modules/
+/src/main/resources/webroot/typings/
+src/main/resources/webroot/npm-debug.log
+/target/
+

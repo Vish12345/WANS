@@ -1,0 +1,38 @@
+<div class="well cartSummary">
+  <h1>Mon panier</h1>
+  <ul>
+    <li class="prices">Total : <span class="value">{{ cart.total }} &euro;</span></li>
+    <li>Nombre de produits : <b>{{ cart.nbProducts }}</b></li>
+  </ul>
+  <button class="btn primary">Terminer ma commande</button>
+</div>
+
+
+{{#if cartProducts}}
+  <ul class="cartList">
+  {{#each cartProducts}}
+    <li>
+      <h2>{{ name }}</h2>
+      <ul class="sellerCart">
+        {{#each products}}
+        <li class="cartItem">
+          {{#infos}}
+          <img src="http://pmcdn.priceminister.com/photo/{{ imageID }}_S.jpg" class="photo">
+          <h4>{{ headline }}</h4>
+          <ul class="productDescription">
+            {{#if topic}}<li class="topic">{{ topic }}</li>{{/if}}
+          {{/infos}}
+            <li class="prices">
+              <span class="value">{{ price }}</span>
+              <span class="quality">{{ quality }}</span>
+            </li>
+          </ul>
+        </li>
+        {{/each}}
+      </ul>
+    </li>
+  {{/each}}
+  </ul>
+{{else}}
+  <p class="notif info">Oops ! Votre panier est vide.</p>
+{{/if}}

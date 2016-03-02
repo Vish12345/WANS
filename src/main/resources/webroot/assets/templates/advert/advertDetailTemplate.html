@@ -1,0 +1,96 @@
+{{#if product}}
+
+  {{#product}}
+
+  <div class="advert">
+    <h1 id="productTitle">{{ headline }}</h1>
+    <div class="productDescription">
+      {{#if caption}}<span class="caption"><a href="">{{ caption }}</a></span>{{/if}}
+      {{#if topic}}<span class="topic">(<a href="">{{ topic }}</a>)</span>{{/if}}
+    </div>
+
+    {{#if reviewsAverageNote}}<div><span class="reviews rating rate_{{rate reviewsAverageNote }}"></span> ({{reviews.length}} avis)</div>{{/if}}
+    
+    <div class="productBox row">
+      <div class="diaporama">
+        <div class="wrapper" style="width:3000px">
+        {{#each imagesUrls}}
+          <img src="{{resizeImage "L" this}}" alt="{{ headline }}" class="diapoPhoto" />
+        {{/each}}
+        </div>
+        <div class="itemGallery">
+        {{#each imagesUrls}}
+          <img src="{{resizeImage "S" this}}" alt="{{ headline }}" class="photoGallery" />
+        {{/each}}
+        </div>
+      </div>
+      <div class="buyBox">
+        La meilleure offre
+      </div>
+    </div>
+
+    <div class="well buyBox">
+      <h2>Meilleures offres</h2>
+      <ul class="prices">
+        {{#if newBestPrice}}<li class="newPrice"><span class="value">{{numberFormat newBestPrice 1 }} &euro;</span> neuf</li>{{/if}}
+        {{#if usedBestPrice}}<li class="usedPrice"><span class="value">{{numberFormat usedBestPrice 1 }} &euro;</span> occasion</li>{{/if}}
+      </ul>
+    </div>
+
+    <div class="displayBy">
+      <a href="#advertDetail/{{ ../productId }}/ALL" class="filter" data-filter="ALL">Tout</a>
+      <a href="#advertDetail/{{ ../productId }}/NEW" class="filter" {{#compare advertsNewCount 0 "=="}}disabled{{/compare}} data-filter="NEW">Neuf</a>
+      <a href="#advertDetail/{{ ../productId }}/USED" class="filter" {{#compare advertsUsedCount 0 "=="}}disabled{{/compare}} data-filter="USED">Occasion</a>
+    </div>
+
+    {{#if adverts}}
+    <ul class="listing">
+      {{#each adverts}}
+        <li class="advertItem row">
+          <p class="price">
+            <span class="value">{{priceTotal salePrice shippingAmount}} &euro;</span>
+            <span class="quality">{{#getProductQuality quality }}{{/getProductQuality}}</span>
+          </p>
+          <p class="seller">
+            {{#seller}}
+              <span class="sellerInfos">
+                <span class="name"><b>Vendeur :</b> <a href="" class="value">{{ login }}</a> {{isPro type}}</span> 
+                {{#if averageScore}}<span class="detail"> - {{numberFormat averageScore 1 }}/5  pour {{ saleCount }} ventes</span>{{/if}}
+              </span>
+            {{/seller}}
+            {{#if sellerComment }}
+            <span class="sellerComment">
+              <b>Commentaire :</b> {{ sellerComment }}
+            </span>
+            {{/if}}
+          </p>
+
+          <div class="actions">
+            <button class="btn primary addToCart" id="{{ advertId }}">Ajouter au panier</button>
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+    {{/if}}
+
+  </div>
+  {{/product}}
+
+  <!-- {{#if hasPrevPage}}<a class="pagination btn" href="#advertDetail/{{ productId }}/{{ prevPage }}/{{ advertType }}">prev</a>{{/if}}
+  {{#if hasNextPage}}<a class="pagination btn" href="#advertDetail/{{ productId }}/{{ nextPage }}/{{ advertType }}">next</a>{{/if}} -->
+
+{{else}}
+  product vide
+{{/if}}
+
+
+
+{{#timing}}
+<h4>Temps de chargement</h4>
+<ul>
+  <li>Total (loadEventEnd - navigationStart) : {{ total }} ms</li>
+  <li>Requète (responseEnd - requestStart) : {{ request }} ms</li>
+  <li>Affichage (loadEventEnd - responseEnd) : {{ load }} ms</li>
+  <li class="client"></li>
+</ul>
+{{/timing}}

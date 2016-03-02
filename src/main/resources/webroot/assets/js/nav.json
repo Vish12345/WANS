@@ -1,0 +1,258 @@
+[{
+  "response": {
+    "webserviceVersion": "1",
+    "result": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xsi:type": "navigationRemoteDto",
+      "totalResultProductsCount": "689",
+      "resultProductsCount": "20",
+      "categories": {
+        "category": [
+          {
+            "label": "Jeux Vidéo",
+            "name": "Jeux-Video-et-Consoles_Jeux-Video",
+            "productsCount": "331"
+          },
+          {
+            "label": "Jeux vidéo en précommande",
+            "name": "Jeux-Video-et-Consoles_Jeux-video-en-pre-commande",
+            "productsCount": "3"
+          },
+          {
+            "label": "Consoles",
+            "name": "Jeux-Video-et-Consoles_Consoles",
+            "productsCount": "5"
+          },
+          {
+            "label": "Accessoires Jeux Vidéo",
+            "name": "Jeux-Video-et-Consoles_Accessoires-Jeux-Video",
+            "productsCount": "34"
+          },
+          {
+            "label": "Lots Console et Jeux Vidéo",
+            "name": "Jeux-Video-et-Consoles_lot-console-et-jeux-video",
+            "productsCount": "59"
+          },
+          {
+            "label": "Figurines",
+            "name": "Jeux-Video-et-Consoles_Figurines",
+            "productsCount": "180"
+          },
+          {
+            "label": "Jeux de rôle et jeux de figurines",
+            "name": "Jeux-Video-et-Consoles_Jeux-de-role-et-jeux-de-figurines",
+            "productsCount": "3"
+          },
+          {
+            "label": "Cartes de jeux",
+            "name": "Jeux-Video-et-Consoles_Cartes-de-jeux",
+            "productsCount": "77"
+          }
+        ]
+      },
+      "products": {
+        "product": [
+          {
+            "id": "161889852",
+            "bestPrice": "10.0",
+            "newBestPrice": "21.34",
+            "usedBestPrice": "10.0",
+            "collectibleBestPrice": "0.0",
+            "advertsCount": "22",
+            "advertsNewCount": "10",
+            "advertsUsedCount": "12",
+            "advertsCollectibleCount": "0",
+            "headline": "Call of Duty - Black Ops - Platinum",
+            "caption": "Activision",
+            "topic": "Jeu PS3",
+            "reviewsAverageNote": "4.666666666666667",
+            "nbReviews": "6",
+            "images": {
+              "image": {
+                "id": "916824165",
+                "imagesUrls": {
+                  "entry": [
+                    {
+                      "size": "SMALL",
+                      "url": "http://pmcdn.priceminister.com/photo/916824165_S.jpg"
+                    },
+                    {
+                      "size": "ORIGINAL",
+                      "url": "http://pmcdn.priceminister.com/photo/916824165.jpg"
+                    },
+                    {
+                      "size": "MEDIUM",
+                      "url": "http://pmcdn.priceminister.com/photo/916824165_M.jpg"
+                    },
+                    {
+                      "size": "LARGE",
+                      "url": "http://pmcdn.priceminister.com/photo/916824165_L.jpg"
+                    }
+                  ]
+                }
+              }
+            },
+            "rspMinimumAmount": "10",
+            "isPickupAllowed": "true",
+            "pickupZips": { "pickupZip": "59" },
+            "isPreOrder": "false"
+          },
+          {
+            "id": "59082238",
+            "bestPrice": "8.5",
+            "newBestPrice": "26.89",
+            "usedBestPrice": "8.5",
+            "collectibleBestPrice": "62.0",
+            "advertsCount": "42",
+            "advertsNewCount": "6",
+            "advertsUsedCount": "35",
+            "advertsCollectibleCount": "1",
+            "headline": "Call of Duty 4 - Modern Warfare",
+            "caption": "Activision",
+            "topic": "Jeu PS3",
+            "reviewsAverageNote": "4.687022900763359",
+            "nbReviews": "393",
+            "images": {
+              "image": [
+                {
+                  "id": "874731844",
+                  "imagesUrls": {
+                    "entry": [
+                      {
+                        "size": "SMALL",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844_S.jpg"
+                      },
+                      {
+                        "size": "ORIGINAL",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844.jpg"
+                      },
+                      {
+                        "size": "MEDIUM",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844_M.jpg"
+                      },
+                      {
+                        "size": "LARGE",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844_L.jpg"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "938705835",
+                  "imagesUrls": {
+                    "entry": [
+                      {
+                        "size": "SMALL",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835_S.jpg"
+                      },
+                      {
+                        "size": "ORIGINAL",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835.jpg"
+                      },
+                      {
+                        "size": "MEDIUM",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835_M.jpg"
+                      },
+                      {
+                        "size": "LARGE",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835_L.jpg"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "rspMinimumAmount": "9",
+            "isPickupAllowed": "true",
+            "pickupZips": {
+              "pickupZip": [
+                "44",
+                "54",
+                "77",
+                "93"
+              ]
+            },
+            "isPreOrder": "false"
+          },
+          {
+            "id": "59456838",
+            "bestPrice": "8.5",
+            "newBestPrice": "126.89",
+            "usedBestPrice": "8.5",
+            "collectibleBestPrice": "62.0",
+            "advertsCount": "42",
+            "advertsNewCount": "16",
+            "advertsUsedCount": "25",
+            "advertsCollectibleCount": "1",
+            "headline": "Youpitralala",
+            "caption": "Activision",
+            "topic": "Jeu PS3",
+            "reviewsAverageNote": "4.687022900763359",
+            "nbReviews": "393",
+            "images": {
+              "image": [
+                {
+                  "id": "874731844",
+                  "imagesUrls": {
+                    "entry": [
+                      {
+                        "size": "SMALL",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844_S.jpg"
+                      },
+                      {
+                        "size": "ORIGINAL",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844.jpg"
+                      },
+                      {
+                        "size": "MEDIUM",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844_M.jpg"
+                      },
+                      {
+                        "size": "LARGE",
+                        "url": "http://pmcdn.priceminister.com/photo/874731844_L.jpg"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "938705835",
+                  "imagesUrls": {
+                    "entry": [
+                      {
+                        "size": "SMALL",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835_S.jpg"
+                      },
+                      {
+                        "size": "ORIGINAL",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835.jpg"
+                      },
+                      {
+                        "size": "MEDIUM",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835_M.jpg"
+                      },
+                      {
+                        "size": "LARGE",
+                        "url": "http://pmcdn.priceminister.com/photo/938705835_L.jpg"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "rspMinimumAmount": "9",
+            "isPickupAllowed": "true",
+            "pickupZips": {
+              "pickupZip": [
+                "44",
+                "54",
+                "77",
+                "93"
+              ]
+            },
+            "isPreOrder": "false"
+          }
+        ]
+      }
+    }
+  }
+}]
